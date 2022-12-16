@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\bback.jpg" />
+    <None Remove="Images\bp.png" />
+    <None Remove="Images\draw.jpg" />
+    <None Remove="Images\wk.png" />
+    <None Remove="Images\wp.png" />
+    <None Remove="Models\bg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bback.jpg" />
+    <Resource Include="Images\bk.png" />
+    <Resource Include="Images\bp.png" />
+    <Resource Include="Images\wk.png" />
+    <Resource Include="Images\wp.png" />
+    <Resource Include="Images\bg.png" />
+  </ItemGroup>
+
+</Project>
